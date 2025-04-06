@@ -1,0 +1,6 @@
+Metric,5-min Wait (Treatment),2-min Wait (Control),Difference,Significant at 5%,p-value
+Total Rides,4724.10,5046.00,-321.90,NO,0.1728
+Rider Cancellations,303.20,246.90,56.30,YES,0.0068
+Driver Payout per Trip ($),$7.5693,$7.8126,$-0.2433,NO,0.2838
+Match Rate (%),73.38%,74.85%,-1.47%,NO,0.6417
+Double Match Rate (%),38.23%,35.26%,2.97%,NO,0.2798

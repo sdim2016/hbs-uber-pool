@@ -1,0 +1,12 @@
+﻿Variable;Type;Definition
+city_id;String;"Location where the experiment took place. In the data it is always equal to ""Boston."""
+period_start;Date;Start date and time for the 160-minute time period of the current observation. 
+wait_time;String;"This variable takes on two possible values: ""2 mins"" if the matching algorithm let riders wait up to 2 minutes during the current time period; ""5 mins"" if the matching algorithm let riders wait up to 5 minutes during the current time period."
+treat;Boolean;"This variable takes on two possible values: ""TRUE"" if wait_time equals ""5 mins""; ""FALSE"" if wait_time equals ""2 mins""."
+commute;Boolean;"This variable takes on two possible values: ""TRUE"" if the time period happens during rush hours (7-9:40AM or 3-5:40PM), ""FALSE"" otherwise."
+trips_pool;Numeric;Total number of POOL trips completed in the current time period. Each matched ride request is a separate trip.
+trips_express;Numeric;Total number of Express POOL trips completed in the current time period. Each matched ride request is a separate trip.
+rider_cancellations;Numeric;Total number of requested trips that were cancelled by the rider in the current time period.
+total_driver_payout;Numeric;Total dollars paid to drivers for trips completed in the current time period. This is equal to Uber's total costs for matching trips in the current time period. 
+total_matches;Numeric;Number of completed trips during the current time period that were paired with at least another rider for part of the trip. Each matched ride request is a separate trip, so two separate riders matched together would count as two matches.
+total_double_matches;Numeric;Number of completed trips during the current time period that were paired with at least two other riders for part of the trip. Each matched ride request is a separate trip, so three separate riders matched together would count as three double matches.

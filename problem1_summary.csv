@@ -1,0 +1,5 @@
+Metric,Commuting Hours,Non-Commuting Hours,Difference,Significant at 5%,p-value
+Total Rides,5046.00,3763.40,1282.60,YES,0.0000
+Express Share (%),69.81%,64.80%,5.01%,YES,0.0016
+Revenue ($),$54256.25,$40945.28,$13310.97,YES,0.0000
+Profit per Trip ($),$2.9421,$3.5996,$-0.6575,YES,0.0003
